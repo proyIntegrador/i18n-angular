@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  firstname:string = 'Andrés';
+  lastname:string = 'Castro';
+  goals:number = 0;
+
+  inc(i:number){
+    this.goals = Math.min(5,Math.max(0,this.goals + i));
+  }
 }

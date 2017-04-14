@@ -1,3 +1,17 @@
-<h1>
-  {{title}}
+
+<h1 i18n="Greeting|Introducing the app creator´s firstname">
+  Hi, my creator´s firstname is: {{firstname}}
 </h1>
+
+<h2 i18n="Complement|We have to say his lastname too">
+  And his lastname is {{lastname}} 
+</h2>
+<br/>
+<button (click)="inc(-1)">-</button> <button (click)="inc(1)">+</button>
+
+<span i18n="Plural|We want to reflect the behaivor of a soccer match score" >
+  {goals, plural, =0 {no goals} =1 {one goal} =2 {two goals} other {a kick ass} }
+</span>
+
+<span i18n> | score: {{goals}} -- 0 </span>
+

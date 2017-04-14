@@ -6,6 +6,7 @@
     "baseUrl": "",
     "types": []
   },
+  "angularCompilerOptions": { "genDir": "locale" },
   "exclude": [
     "test.ts",
     "**/*.spec.ts"

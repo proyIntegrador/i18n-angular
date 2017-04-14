@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="27b3fb632397dd139bb1edc4fef73aa3a7a02352" datatype="html">
+        <source>
+          Hi, my creator´s firstname is: <x id="INTERPOLATION"/>
+        </source>
+        <target>
+          Hola, el nombre de mi creador es: <x id="INTERPOLATION"/>
+        </target>
+        <note priority="1" from="description">Introducing the app creator´s firstname</note>
+        <note priority="1" from="meaning">Greeting</note>
+      </trans-unit>
+      <trans-unit id="8d6e4e3c55a8e1e65cac4c2d386ebb2e5e2ae242" datatype="html">
+        <source>
+          And his lastname is <x id="INTERPOLATION"/> 
+        </source>
+        <target>
+          Y su apellido es  <x id="INTERPOLATION"/>
+        </target>
+        <note priority="1" from="description">We have to say his lastname too</note>
+        <note priority="1" from="meaning">Complement</note>
+      </trans-unit>
+      <trans-unit id="01957f0bc66c0b02469ee634c605175371c514da" datatype="html">
+        <source>
+          <x id="ICU"/>
+        </source>
+        <target>{goals, plural, =0 {sin goles} =1 {uno} =2 {dos} other {Goleada} }</target>
+        <note priority="1" from="description">We want to reflect the behaivor of a soccer match score</note>
+        <note priority="1" from="meaning">Plural</note>
+      </trans-unit>
+      <trans-unit id="ca9f8a8c62c273b70ea4a8bb5a844db9715ea624" datatype="html">
+        <source/>
+        <target/>    
+      </trans-unit>
+      <trans-unit id="078f301bf52bb067605f7aa3d678743d303cef61" datatype="html">
+        <source> | score: <x id="INTERPOLATION"/> -- 0 </source>
+        <target> | marcador: <x id="INTERPOLATION"/> -- 0 </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
