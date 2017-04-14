@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-##Owner info
+## Owner info added by Andrés Castro
 
 Run `ng serve --aot --locale es --i18n-file src/locale/messages.es.xlf --i18n-format xlf --port 4500` if you want to view it on Spanish language an serve it through port number 4500, change port or languaje like you want, remember that the supported languages are es:Spanish, fr:French, de:Deutch and en:English by default.
 To view on English language run `ng serve` without any parameter except port parameter if you want 
